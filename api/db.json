@@ -1,0 +1,31 @@
+{
+  "employees": [
+    {
+      "firstName": "barty",
+      "lastName": "crouch",
+      "emailAddress": "winkyelf2007@aol.com",
+      "phoneNumber": "3048675309",
+      "birthday": "10-12-1964",
+      "department": "mysteries",
+      "id": 1
+    },
+    {
+      "firstName": "sdfhfdsah",
+      "lastName": "dasfadfs",
+      "emailAddress": "adsfdfasdfas",
+      "phoneNumber": "324342432",
+      "birthday": "2019-02-05",
+      "department": "sfdfsdfdas",
+      "id": 2
+    },
+    {
+      "firstName": "harry",
+      "lastName": "potter",
+      "emailAddress": "chosenboy@jkrowlingsucks.com",
+      "phoneNumber": "82747494",
+      "birthday": "1991-06-11",
+      "department": "mysteries",
+      "id": 3
+    }
+  ]
+}
