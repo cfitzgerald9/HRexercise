@@ -13,4 +13,10 @@ const createEmployee = employeeToAdd => {
     return fetch("http://localhost:8088/employees").then(employees => employees.json());
   };
 
+  const deleteEmployee = (employeeId) => {
+    return fetch(`http://localhost:8088/employees/${employeeId}`, {
+      method: "DELETE"
+    })
+  }
+
 

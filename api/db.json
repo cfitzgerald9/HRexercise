@@ -10,15 +10,6 @@
       "id": 1
     },
     {
-      "firstName": "sdfhfdsah",
-      "lastName": "dasfadfs",
-      "emailAddress": "adsfdfasdfas",
-      "phoneNumber": "324342432",
-      "birthday": "2019-02-05",
-      "department": "sfdfsdfdas",
-      "id": 2
-    },
-    {
       "firstName": "harry",
       "lastName": "potter",
       "emailAddress": "chosenboy@jkrowlingsucks.com",
@@ -26,6 +17,15 @@
       "birthday": "1991-06-11",
       "department": "mysteries",
       "id": 3
+    },
+    {
+      "firstName": "hermy",
+      "lastName": "granger",
+      "emailAddress": "istangrawmp@giants.com",
+      "phoneNumber": "4321943921",
+      "birthday": "1990-03-06",
+      "department": "know-it-all",
+      "id": 4
     }
   ]
 }

@@ -21,6 +21,15 @@ document.querySelector("#addEmployeeButton").addEventListener("click", () => {
   });
 });
 
+document.querySelector("body").addEventListener("click", () => {
+  if(event.target.classList.contains("deleteButton")){
+    const employeeId = event.target.id.split("-")[1];
+    deleteEmployee(employeeId)
+    .then(() => {
+      printAllEmployees()
+    })
+  }
+})
 
 
 

@@ -6,7 +6,10 @@ const buildSingleEmployee = (singleEmployee) => {
                     <li>${singleEmployee.phoneNumber}</li>
                     <li>${singleEmployee.birthday}</li>
                     <li>${singleEmployee.department}</li>
+                    <button class = "updateButton" id= "updateButton-${singleEmployee.id}"> Update</button>
+                    <button class = "deleteButton" id= "deleteButton-${singleEmployee.id}"> Delete</button>
                     </ul>
 
   </div>`
 }
+
