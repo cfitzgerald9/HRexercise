@@ -1,22 +1,22 @@
 {
   "employees": [
     {
-      "firstName": "barty",
-      "lastName": "crouch",
+      "id": 1,
+      "firstName": "Barty",
+      "lastName": "Crouch",
       "emailAddress": "winkyelf2007@aol.com",
       "phoneNumber": "3048675309",
       "birthday": "10-12-1964",
-      "department": "mysteries",
-      "id": 1
+      "department": "Azkaban"
     },
     {
-      "firstName": "harry",
-      "lastName": "potter",
+      "id": 3,
+      "firstName": "Harry",
+      "lastName": "Potter",
       "emailAddress": "chosenboy@jkrowlingsucks.com",
       "phoneNumber": "82747494",
       "birthday": "1991-06-11",
-      "department": "mysteries",
-      "id": 3
+      "department": "Auror's Office"
     },
     {
       "firstName": "hermy",

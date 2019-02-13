@@ -31,5 +31,39 @@ document.querySelector("body").addEventListener("click", () => {
   }
 })
 
+document.querySelector("body").addEventListener("click", () => {
+  if(event.target.classList.contains("editButton")){
+    const employeeId = event.target.id.split("-")[1]
+    getSingleEmployee(employeeId)
+    .then(singleEmployeeData => {
+      document.querySelector(`#employeeContainer-${employeeId}`).innerHTML = buildEditForm(singleEmployeeData);
+    })
+  }
+})
+
+document.querySelector("body").addEventListener("click", () => {
+  if(event.target.classList.contains("editSaveButton")){
+    const employeeId = event.target.id.split("-")[1];
+    const editedEmployeeObject = {
+      id: employeeId,
+      firstName: document.querySelector(`#employeeFirstNameEdit-${employeeId}`).value,
+      lastName: document.querySelector(`#employeeLastNameEdit-${employeeId}`).value,
+      emailAddress: document.querySelector(`#employeeEmailEdit-${employeeId}`).value,
+      phoneNumber: document.querySelector(`#employeePhoneEdit-${employeeId}`).value,
+      firstName: document.querySelector(`#employeeFirstNameEdit-${employeeId}`).value,
+      birthday:document.querySelector(`#employeeBirthdayEdit-${employeeId}`).value,
+      department: document.querySelector(`#employeeDepartmentEdit-${employeeId}`).value
+    }
+    editEmployee(employeeId, editedEmployeeObject)
+    .then(() => {
+      getAllEmployees();
+      printAllEmployees();
+    })
+  }
+})
+
+
+
+
 
 
